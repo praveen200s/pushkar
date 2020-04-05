@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,600,600italic,700,700italic,900,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Hues of Pushkar</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 justify-content-center text-center">
+          <h1 class="page-head">Hues of Pushkar Fair</h1>
+          <h6>A Reflection on Colors than Camels</h6>
+          <p class="text-muted">
+            <small>( NOTE : Best viewed on a tablet or a desktop. )</small>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 justify-content-center">
+          <div id="vis" class="position-sticky"></div>
+          <div id="text" class="position-relative">
+            <div class="step p-3 mt-5">
+              <p>
+                The <b>Pushkar Fair</b>, also called the Pushkar Camel Fair or
+                locally as Kartik Mela or Pushkar ka Mela is an annual multi-day
+                livestock fair and cultural fête held in the town of Pushkar
+                (Rajasthan, India).
+              </p>
+              <p>
+                In 1998, over 1 million visitors came to Pushkar throughout the
+                year.The Pushkar fair alone attracts over 200,000 visitors.
+                <a
+                  href="https://en.wikipedia.org/wiki/Pushkar_Fair"
+                  target="_blank"
+                  ><ion-icon name="arrow-redo-circle-outline"></ion-icon
+                ></a>
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                We visited the Pushkar fair in 2019, with a purpose of
+                unearthing the depth & breadth of colors, seen all around the
+                festive ground. We documented the market, the lanes, the vendors
+                & ofcourse the camel fair.
+              </p>
+              <p>
+                We wanted to undestand the local trend in colors.How different
+                or similar is it to global trends ? Do they influence eachother
+                or does the local choices stay intact over the years.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                We put 2019 Pushkar Fair as our first anchor for the study. We
+                curated almost more than 2000 photographs and selected 500
+                images for the analysis.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                We used a mix of tools, custom & few already available to us and
+                extracted color pallete from each of the images.We narrowed down
+                5 colors for the pallete.Like the first color shown here.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>then, 2nd color...</p>
+            </div>
+            <div class="step p-3">
+              <p>...3rd...</p>
+            </div>
+            <div class="step p-3">
+              <p>...4th and...</p>
+            </div>
+            <div class="step p-3">
+              <p>final 5th.</p>
+            </div>
+            <div class="step p-3">
+              <p>
+                We created a datasheet for each image along with its 5 colors
+                palette.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>At the end, we had 2500 colors.</p>
+              <p>
+                To move ahead, we simply aligned them along 2 axes and observed
+                the bands/groups/clusters of colors. There was not scale to axis
+                as colors are inherently intuitive data.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>First, we mapped HUE values vs Saturation levels.</p>
+              <p>Clearly there was a marked clusters of the Red-Violet hues</p>
+            </div>
+            <div class="step p-3">
+              <p>Second, we plotted Saturation levels vs Brightness.</p>
+              <p>
+                Colors lined up with intervals of brigtness values with each
+                separated by ~10-11 points.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>Third, we plotted Hue values vs Brightness.</p>
+              <p>
+                Although there was clear intervals of brightness points, the low
+                saturated colors were dispersed over a continuous section in
+                comparison to high saturated colors.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                The HSB plots did gave little hints to us about the color
+                clusters. But we wanted to see the richness in our pallete also.
+              </p>
+              <p>
+                So we placed all the colors togther & made clusters as per each
+                color index of the pallete.The potpurri of colors was a delight.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                Further to ascertain the frequancy of colors in our palletes, we
+                seggragated the colors on a hue scale with 8 specific hue
+                points.
+              </p>
+              <p>
+                The sparse & thick colors showed up naturally in a lovely form.
+              </p>
+            </div>
+            <div class="step p-3">
+              <p>
+                This was the part-I of our analysis. The rest will be released
+                soon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- JavaScript Files -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <!-- JS Files for the page-->
+    <script src="js/sketch.js"></script>
+    <script src="js/scroller.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

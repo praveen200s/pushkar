@@ -1,0 +1,49 @@
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+a {
+    color: #e20eaa;
+}
+
+a:focus,
+a:hover,
+a:visited {
+    color: #ff4ed0
+}
+
+.page-head {
+    font-variant: small-caps;
+}
+
+.step {
+    /* visibility: hidden; */
+    /* border-top: 1px red solid; */
+    /* border-bottom: 1px green solid; */
+    margin-bottom: 500px;
+    padding: 2rem 1rem !important;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    background: rgba(255, 255, 255, 0.3);
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 25%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%); */
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+#text {
+    top: -500px;
+    z-index: 90;
+    width: 400px;
+}
+
+#vis {
+    top: 50px;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+}
